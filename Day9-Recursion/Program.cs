@@ -12,7 +12,6 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 using Day9_Recursion;
-
 class Solution
 {
 
@@ -27,7 +26,7 @@ class Solution
     static void Main(string[] args)
     {
 
-
+        Console.WriteLine(102 & 1);
 
         //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
@@ -41,6 +40,6 @@ class Solution
         //textWriter.Close();
 
         //Day10_BinaryNumbers.GetLargestConsecutiveBinaryNumber();
-       
+
     }
 }

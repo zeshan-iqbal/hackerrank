@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8-DictionariesandMaps", "HackerRank\Day8-DictionariesandMaps.csproj", "{853D2B4B-48CB-4D90-B60E-18301FB0A698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day8-DictionariesandMaps", "HackerRank\Day8-DictionariesandMaps.csproj", "{853D2B4B-48CB-4D90-B60E-18301FB0A698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day9-Recursion", "Day9-Recursion\Day9-Recursion.csproj", "{C9A5DFCA-5121-4923-936E-29A4FEE08C37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day9-Recursion", "Day9-Recursion\Day9-Recursion.csproj", "{C9A5DFCA-5121-4923-936E-29A4FEE08C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrepKit", "PrepKit\PrepKit.csproj", "{07A10A34-D9D4-4973-885B-341B818B3FE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C9A5DFCA-5121-4923-936E-29A4FEE08C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9A5DFCA-5121-4923-936E-29A4FEE08C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9A5DFCA-5121-4923-936E-29A4FEE08C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A10A34-D9D4-4973-885B-341B818B3FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A10A34-D9D4-4973-885B-341B818B3FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A10A34-D9D4-4973-885B-341B818B3FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A10A34-D9D4-4973-885B-341B818B3FE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

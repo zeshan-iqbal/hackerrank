@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Reflection.Metadata.Ecma335;
 
 namespace PrepKit
 {
@@ -8,8 +9,24 @@ namespace PrepKit
     {
         public int countingValleys(int n, string s)
         {
+            int currentLevel = 0;
+            short valleys = 0;
 
-            return 0;
+            foreach (var step in s)
+            {
+                if (step == 'U')
+                {
+                    currentLevel++;
+                    if (currentLevel == 0)
+                        valleys++;
+                }
+                else
+                {
+                    currentLevel--;
+                }
+            }
+            
+            return valleys;
         }
 
         public void Main(string[] args)

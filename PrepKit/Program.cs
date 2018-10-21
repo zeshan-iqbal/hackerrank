@@ -21,11 +21,19 @@ namespace PrepKit
             #endregion
 
             #region JumpingOnClouds
-            var a = new int[] {0, 0, 1, 0, 0, 0, 0, 1, 0, 0};
+            
+var a = new int[] {0, 0, 1, 0, 0, 0, 0, 1, 0, 0};
             //var a = new int[] { 0, 0, 1, 0, 0, 1, 0 };
             var jumpingOnClouds = new JumpingOnClouds();
             var numberOfJumps = jumpingOnClouds.jumpingOnClouds(a);
             Console.WriteLine($"Number of jumps: {numberOfJumps}");
+            #endregion
+
+            #region Repeated String
+
+            var repeatedString = new RepeatedString();
+            long count = repeatedString.repeatedString("gfcaaaecbg", 547602); //expect: 164280: actual: 164283
+            Console.WriteLine($"Numbers of a in infinitely repeated string : {count}");
             #endregion
         }
     }

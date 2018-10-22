@@ -35,6 +35,16 @@ var a = new int[] {0, 0, 1, 0, 0, 0, 0, 1, 0, 0};
             long count = repeatedString.repeatedString("gfcaaaecbg", 547602); //expect: 164280: actual: 164283
             Console.WriteLine($"Numbers of a in infinitely repeated string : {count}");
             #endregion
+
+            #region NewYearChaos
+
+            var chaos = new NewYearChaos();
+            int[] q = {2, 1, 5, 3, 4}; //3
+            chaos.minimumBribes(q);
+            q = new[]{ 2, 5, 1, 3, 4}; //chaotic
+            chaos.minimumBribes(q);
+
+            #endregion
         }
     }
 }

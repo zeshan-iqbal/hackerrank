@@ -39,7 +39,7 @@ var a = new int[] {0, 0, 1, 0, 0, 0, 0, 1, 0, 0};
             #region NewYearChaos
 
             var chaos = new NewYearChaos();
-            int[] q = {2, 1, 5, 3, 4}; //3
+            int[] q = { 2, 1, 5, 3, 4 }; //3
             chaos.minimumBribes(q);
             q = new[]{ 2, 5, 1, 3, 4}; //chaotic
             chaos.minimumBribes(q);

@@ -7,6 +7,16 @@ namespace PrepKit
     //https://www.hackerrank.com/challenges/ctci-ransom-note/problem
     public class RansomNote
     {
+
+        /*
+         *Python Solution
+         *
+         *from collections import Counter
+         *def ransom_note(magazine, rasom):
+         *    return (Counter(rasom) - Counter(magazine)) == {}
+         *
+         */
+
         // Complete the checkMagazine function below.
         public void checkMagazine(string[] magazine, string[] note)
         {

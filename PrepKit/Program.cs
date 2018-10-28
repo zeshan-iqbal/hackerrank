@@ -45,6 +45,13 @@ var a = new int[] {0, 0, 1, 0, 0, 0, 0, 1, 0, 0};
             chaos.minimumBribes(q);
 
             #endregion
+
+            #region Sherlock Anagrams
+
+            var sharlockAnagram = new SherlockandAnagrams();
+            Console.WriteLine($"number of anagrams in string: {sharlockAnagram.sherlockAndAnagrams("kkkk")}");
+
+            #endregion
         }
     }
 }
